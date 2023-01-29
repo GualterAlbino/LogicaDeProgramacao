@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1635872876 source:b:\gualter\documents\faculdade\faculdade 2-semestre\fundamentos da matematica - kenedy\estudo dirigido 4\atividade computacional 4\main.cpp
+	<iostream>
+	<locale.h>
+	"Funcoes.h"
+
+1635873598 source:b:\gualter\documents\faculdade\faculdade 2-semestre\fundamentos da matematica - kenedy\estudo dirigido 4\atividade computacional 4\funcoes.cpp
+	<iostream>
+	<locale.h>
+	"Funcoes.h"
+	<math.h>
+	<cmath>
+	<tgmath.h>
+
+1635872346 b:\gualter\documents\faculdade\faculdade 2-semestre\fundamentos da matematica - kenedy\estudo dirigido 4\atividade computacional 4\funcoes.h
+

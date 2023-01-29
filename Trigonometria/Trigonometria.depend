@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636900051 source:b:\gualter\documents\faculdade\faculdade 2-semestre\fundamentos da matematica - kenedy\estudo dirigido 5\projetocomputacional-5\main.cpp
+	<iostream>
+	<math.h>
+

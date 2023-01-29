@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1621706620 source:c:\users\gualter\faculdade\tecnicas de progamação-daibert\estudo dirigido 4\trabalhos\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1621706620 source:d:\gualter\documents\faculdade\faculdade 1-semestre\tecnicas de progamação-daibert\logicadeprogramação\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+

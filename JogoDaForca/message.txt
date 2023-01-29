@@ -1,0 +1,167 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <conio.h>
+
+/*typedef struct{
+
+    char palavra[100];
+    char dica1[100];
+    char dica2[100];
+    char dica3[100];
+    char dica4[100];
+
+}palavras;*/
+
+//variavel global
+// palavras bancodepalavras[20];
+ int indice=0;
+ int chances=5;
+
+
+
+
+
+
+
+
+
+void menu(){
+
+    printf("\tMenu\n\n");
+    printf("[1] - Jogar\n");
+    printf("[2] - Sair\n\n");
+    printf("Selecione a opcao que deseja: ");
+
+}
+
+void ler(){
+
+    FILE*arquivo;
+    arquivo= fopen("Dados.txt","rt");
+
+    if(arquivo==NULL){
+        printf("Não foi possivel abrir o arquivo!\n ");
+        exit(0);
+    }
+    char palavra[100];
+    while(fgets(palavra,100,file)!=NULL){
+        printf("%s",palavra);
+    }
+    fclose(file);
+
+}
+
+void tentativas(){
+    if(chances=5){
+        printf(" ------------\n");
+        printf(" |          |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+
+    }else if(chances=4){
+         printf(" -----------\n");
+        printf(" |          |\n");
+        printf(" |          0\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+
+
+
+
+    }else if(chances=3){
+        printf(" -----------\n");
+        printf(" |          |\n");
+        printf(" |          0\n");
+        printf(" |          |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+
+
+
+
+    }else if(chances=2){
+        printf(" -----------\n");
+        printf(" |          |\n");
+        printf(" |          0  \n");
+        printf(" |         /|\ \n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+
+
+
+
+    }else if(chances=1){
+         printf(" -----------\n");
+        printf(" |          |\n");
+        printf(" |          0   \n");
+        printf(" |         /|\  \n");
+        printf(" |           \  \n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+
+
+
+
+    }else if(chances=0){
+         printf(" -----------\n");
+        printf(" |          |\n");
+        printf(" |          0   \n");
+        printf(" |         /|\  \n");
+        printf(" |         / \  \n");
+        printf(" |\n");
+        printf(" |\n");
+        printf(" |\n");
+        printf("---");
+        printf("\tENFORCADO!");
+
+    }
+}
+
+
+int main()
+{
+    int op;
+    while(1){
+        system("cls");
+        menu();
+        scanf("%d",&op);
+
+    switch(op){
+    case 1:
+        ler();
+        break;
+
+    case 2:
+        printf("\nAdeus!\n");
+        exit(0);
+        break;
+
+    default:
+        printf("Selecione uma opcao valida! ");
+
+
+        }
+        printf("\n\n\n");
+        system("pause");
+    }
+    printf("\n\n\n");
+    return 0;
+}

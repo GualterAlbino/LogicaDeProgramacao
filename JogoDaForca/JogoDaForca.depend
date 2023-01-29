@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1624812148 source:c:\users\gualter\faculdade\tecnicas de progamação-daibert\forca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

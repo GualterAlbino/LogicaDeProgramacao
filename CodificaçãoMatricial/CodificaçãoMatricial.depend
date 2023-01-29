@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1647561733 source:b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\atividade computacional 1\funcoes.cpp
+	<iostream>
+	"funcoes.h"
+	<stdlib.h>
+
+1647522928 b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\atividade computacional 1\funcoes.h
+
+1647561756 source:b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\atividade computacional 1\main.cpp
+	<iostream>
+	<locale.h>
+	"funcoes.h"
+
+1647713814 source:b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\estudo dirigido 1\atividade computacional 1\main.cpp
+	<iostream>
+	<locale.h>
+	"funcoes.h"
+
+1647713999 b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\estudo dirigido 1\atividade computacional 1\funcoes.h
+
+1647713699 source:b:\gualter\documents\faculdade\faculdade 3-semestre\geometria - kenedy\estudo dirigido 1\atividade computacional 1\funcoes.cpp
+	<iostream>
+	"funcoes.h"
+	<stdlib.h>
+

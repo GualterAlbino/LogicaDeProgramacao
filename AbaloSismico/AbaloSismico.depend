@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1631577712 source:b:\gualter\documents\faculdade\faculdade 2-semestre\fundamentos da matematica - kenedy\estudo dirigido 2\calculadora de log\abalo sismico\main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+	<sstream>
+

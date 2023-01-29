@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1629679568 source:b:\gualter\documents\faculdade\faculdade 2-semestre\calculadora.2\main.cpp
+	<iostream>
+	<math.h>
+

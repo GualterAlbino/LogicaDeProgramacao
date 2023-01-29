@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1624412097 source:e:\downloads\agendadaibert\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

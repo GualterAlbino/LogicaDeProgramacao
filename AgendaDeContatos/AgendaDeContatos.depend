@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1624413077 source:d:\gualter\documents\faculdade\faculdade 1-semestre\tecnicas de progamação-daibert\logicadeprogramação\agendadecontatos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1624413077 source:d:\gualter\documents\faculdade\_logicadeprogramação\agendadecontatos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
